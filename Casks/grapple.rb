@@ -2,7 +2,7 @@
 cask "grapple" do
   desc "Fetch logs from Google Cloud Logging"
   homepage "https://github.com/dippi/grapple"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,23 +15,23 @@ cask "grapple" do
 
   on_macos do
     on_intel do
-      url "https://github.com/dippi/grapple/releases/download/v0.1.0/grapple_0.1.0_Darwin_x86_64.tar.gz"
-      sha256 "93203167d19d874b66cd816161a8908e400b9a036addca609df2bfef3764980a"
+      url "https://github.com/dippi/grapple/releases/download/v0.1.1/grapple_0.1.1_Darwin_x86_64.tar.gz"
+      sha256 "182669f8ab696ac2a7f258823125ca3e62d72218457c9c08ce20824edfa30e65"
     end
     on_arm do
-      url "https://github.com/dippi/grapple/releases/download/v0.1.0/grapple_0.1.0_Darwin_arm64.tar.gz"
-      sha256 "ab323abdf1e01fdf6ea4bd22e621656392bc0ccc974ef4a3fabd05efbde53a90"
+      url "https://github.com/dippi/grapple/releases/download/v0.1.1/grapple_0.1.1_Darwin_arm64.tar.gz"
+      sha256 "00fd2e5a540aadc6a7f1187dfd5cd8b8bf9ac1c1a0f3aa9b97aa823a23c4c846"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dippi/grapple/releases/download/v0.1.0/grapple_0.1.0_Linux_x86_64.tar.gz"
-      sha256 "a1aaa83ba1737f59afa6177be6d6f2e042166c50f17d97a462c85746a823c730"
+      url "https://github.com/dippi/grapple/releases/download/v0.1.1/grapple_0.1.1_Linux_x86_64.tar.gz"
+      sha256 "704f7b565857f36b22a8a366907d7da48e2d2cc1fa2043bc8cd35e31175945d4"
     end
     on_arm do
-      url "https://github.com/dippi/grapple/releases/download/v0.1.0/grapple_0.1.0_Linux_arm64.tar.gz"
-      sha256 "74130442ce016ee9f357b4563d22399eb45ed7708ef73ec8e3a76017329a5b7f"
+      url "https://github.com/dippi/grapple/releases/download/v0.1.1/grapple_0.1.1_Linux_arm64.tar.gz"
+      sha256 "2753ed3e724d132685b6eb8d024ab66de8488a63dc1a6948de212efe74e3f2bd"
     end
   end
 
